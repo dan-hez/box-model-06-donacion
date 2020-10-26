@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(207, 232, 241);
+}
+.container{
+    width: 300px;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 1px 20px 1px rgba(114, 114, 196, 0.425);
+    position: relative;
+    top: 200px;
+    left: 35%;
+}
+.header{
+    font-family: monospace;
+    font-size: 14px;
+    color: rgb(43, 62, 78);
+    margin-bottom: 12%;
+    text-align: center;
+}
+.section .uno{
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 50px;
+}
+.section .dos{
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 50px;
+}
+.box{
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
+article{
+    width: 15%;
+    height: auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5%;
+    border: 1px solid rgb(201, 201, 201);
+    float: left;    
+}
+.cinco{
+    position: relative;
+    left: 4px;
+}
+.diez{
+    position: relative;
+    left: 14px;
+}
+.quince{
+    background-color: #7563F6;
+    position: relative;
+    left: 24px;
+}
+.other{
+    width: 25%;
+    position: relative;
+    left: 34px;
+}
+.dos{
+    clear: both;
+    padding: 5px;
+}
+p{
+    color: #3a3081;
+    font-family: monospace;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+
+}
+.selected{
+    color: white;
+}
+.button{
+    padding: 5% 38% 5% 38%;
+    margin-top: 5%;
+    background-color:  #7563F6;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 1px rgba(114, 114, 196, 0.425);
+}
